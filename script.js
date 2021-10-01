@@ -14,7 +14,6 @@ form.addEventListener('submit', e => {
             email.style.border = "2px solid red"; //show red border
             email.style.backgroundImage = "url('images/icon-error.svg')"; //add ! icon
             email.style.backgroundRepeat = "no-repeat"; // ! icon properties
-            email.style.backgroundOrigin = "content-box"; // ! icon properties
             email.style.backgroundPosition = "calc(100% - 4.5rem)"; // ! icon properties
         }
 
